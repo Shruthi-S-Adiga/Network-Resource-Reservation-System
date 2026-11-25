@@ -1,4 +1,4 @@
-# Network Resource Reservation System — D1
+#Network Resource Reservation System — D1
 
 This folder is a standalone version of the project. Use **D1** for the initial submission and **D2** for the enhanced final submission.
 
@@ -42,7 +42,6 @@ The REST API should be reachable at `http://127.0.0.1:8080`; OpenFlow normally l
 ```bash
 sudo python3 mininet_topology.py
 ```
-
 At the Mininet prompt, test `pingall`. If needed, use `sudo mn -c` after exiting to clean up old Mininet state.
 
 **Terminal 3 — reservation server**
