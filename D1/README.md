@@ -12,7 +12,7 @@ This folder is a standalone version of the project. Use **D1** for the initial s
 ## Important accuracy note
 
 This implementation **tracks requested Mbps as logical reserved capacity** and installs/removes per-flow OpenFlow rules. It does **not by itself guarantee or enforce the requested Mbps rate** on the physical/virtual links. Actual per-flow bandwidth enforcement requires additional OVS QoS/queues or OpenFlow meters configured and tested for the specific OVS/Ryu versions. Do not claim strict bandwidth shaping in the demo unless your team adds and verifies it.
-
+ 
 ## Prerequisites
 
 Use an Ubuntu VM with Mininet and Open vSwitch installed. Install Ryu in a compatible Python environment, and use the standard Ryu `ofctl_rest` app. A common setup is:
